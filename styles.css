@@ -29,6 +29,27 @@ body {
     18% no-repeat;
 }
 
+/* ---------------------------------------------------------------------------- */
+
+.container-img {
+  width: 400px;
+  height: 400px;
+}
+
+.glitch-img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+/* ---------------------------------------------------------------------------- */
+
 .subtitle {
   display: inline-block;
   font-size: 2rem;

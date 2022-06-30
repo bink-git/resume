@@ -16,19 +16,19 @@
         <video class="header-video" autoplay loop muted>
           <source src="./assets/video-comp.mp4" type="video/mp4" />
         </video>
-        <div class="header-photo">
+        <!-- <div class="header-photo">
           <img src="./assets/photo-4.png" alt="profile photo" />
+        </div> -->
+        <div ondragstart="return false;" class="container-img">
+          <div
+            class="glitch-img"
+            style="background-image: url('./assets/photo-1.png')"
+          ></div>
         </div>
         <div class="header-content">
           <div class="header-text">
             <h1 class="header-title">Ivan Bahniuk</h1>
             <p class="header-descr">Frontend Developer</p>
-            <!-- <img class="header-greek" src="./assets/greek.png" alt="greek" />
-            <img
-              class="greek-glasses"
-              src="./assets/glasses-2.png"
-              alt="glasses"
-            /> -->
           </div>
         </div>
       </header>
@@ -313,5 +313,12 @@
         <div class="footer-copy">© 2022 Bahniuk Ivan</div>
       </footer>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script src="./mgGlitch.min.js"></script>
   </body>
 </html>
