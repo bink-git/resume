@@ -476,6 +476,12 @@ body {
 .work-6 {
   background-image: url(./assets/work-6.jpg);
 }
+.work-7 {
+  background-image: url(./assets/work-7.jpg);
+  background-size: contain;
+  background-color: #223c4b;
+  object-fit: contain;
+}
 
 .work-1:hover,
 .work-2:hover,
