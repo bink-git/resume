@@ -482,6 +482,11 @@ body {
   background-color: #223c4b;
   object-fit: contain;
 }
+.work-8 {
+  background-image: url(./assets/work-8.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
 
 .work-1:hover,
 .work-2:hover,
