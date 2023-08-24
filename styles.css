@@ -493,7 +493,9 @@ body {
 .work-3:hover,
 .work-4:hover,
 .work-5:hover,
-.work-6:hover {
+.work-6:hover,
+.work-7:hover,
+.work-8:hover {
   background-size: 115%;
   box-shadow: 12px 12px 0px 0px var(--main-color);
   transition: background-size 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
